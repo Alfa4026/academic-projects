@@ -59,7 +59,7 @@ Spoiler alert: **Attention is the clear winner!** The experiment showed a drasti
 
 ### 1. Training & Validation Loss Comparison
 
-*(You can add the `Perbandingan Metrik Training dan Validasi.png` image here in your repo)*
+![Grafik Perbandingan Loss](./images/Perbandingan%20Metrik%20Training%20dan%20Validasi.png)
 
 * **RNN (Total Fail ❌):** As expected, the simple RNN hit a **vanishing gradient** wall. Its loss curve (both training and validation) stayed flat at a high level. It learned nothing.
 * **LSTM (Pretty Good ✅):** Much better than the RNN. In Scenario 1 (easy), it learned the pattern well. But in Scenario 2 (hard), its training loss became unstable and fluctuated. It got "confused" by the random noise.
@@ -67,7 +67,7 @@ Spoiler alert: **Attention is the clear winner!** The experiment showed a drasti
 
 ### 2. Gradient Magnitude Comparison
 
-*(You can add the `Perbandingan Magnitudo Gradien.png` image here in your repo)*
+![Grafik Magnitudo Gradien](./images/Perbandingan%20Magnitudo%20Gradien.png)
 
 This graph confirms *why* the models performed the way they did:
 
